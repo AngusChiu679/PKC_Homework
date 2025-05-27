@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICT revision</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>  <!-- Correct -->
+  </head>
+  <body>
+  <div class="transparent-box">
+  <div class="tab-system">
+  <!-- Tab headers -->
+  <div class="tab-header">
+    <button class="tab-button active" onclick="openTab(event, 'topic1')">
+    
+    <a href="Network_Categories.html" title="Network_Categories" style="text-decoration: none; color: inherit;">Network Categories</a>
+    </button>
+    <button class="tab-button active" onclick="openTab(event, 'topic1')">
+    <a href="Connect_Devices.html" title="Connect_Devices" style="text-decoration: none; color: inherit;">Connecting Devices</a>
+</button>
+    <button class="tab-button" onclick="openTab(event, 'topic3')">Topic 3</button>
+    
+    <!-- Navigation buttons -->
+    
+  </div>
+
+  
+  </div>
+<body>
+    <h1>Connecting Devices</h1>
+      <h3>Network Interface Card(NIC)</h3>
+      <ul class="network-features">
+        <li>Enables the device to exchange data through a network</li>
+        <li>Installed inside a network device, such as computer or router</li>
+        <li>
+          Most of it are connected to the motherboard of a computer through
+          peripheral computer interconnect slot
+        </li>
+        <li>
+          Some uses USB connection such as wireless NICs which improves signal
+          reception
+        </li>
+      </ul><br>
+      <h3>Hub and Switch</h3><br>
+      <p class="example">A hub serves as a connection point of different devices in the same lan. Data entering a hub is fowared to all devices connected to it.<br><br>A
+      switch connects different devices within the same LAN and direct data to targeted devices based on their MAC address.</p>
+    <br><table border="1">
+        <tr>
+            <th rowspan="1", colspan="1"></th>
+            <th>Hub</th>
+            <th>Switch</th>
+        </tr>
+        <tr>
+            <td>Security</td>
+            <td style="text-align: left;">1. Low<br>2. Data packets are transmitted to every port</td>
+            <td style="text-align: left;">1. High<br> 2. Data packets are transmitted to specified ports</td>
+        </tr>
+        <tr>
+            <td>Efficiency</td>
+            <td style="text-align: left;">1. Low<br>2. Transmit one data packet a time</td>
+            <td style="text-align: left;">1. High<br>2. Transmit multiple data packets at a time</td>
+        </tr>
+        <tr>
+            <td>Network Speed</td>
+            <td style="text-align: left;">Each port has the same network speed</td>
+            <td style="text-align: left;">Each port has a specifically allocated network speed</td>
+        </tr>
+    </table><br>
+    <h3>Bridge</h3><br>
+    <p class="example">Similar to a switch, but it connects fewer LANs than the latter.</p><br>
+    <h3>Router</h3><br>
+    <p class="example">Link between LANs or a LAN and a WAN and finds the shortest path to the destination for data packets.</p>
+</body>
+</html>

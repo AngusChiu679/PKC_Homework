@@ -1,0 +1,216 @@
+/* Basic reset for consistent styling across browsers */
+/* Basic reset for consistent styling across browsers */
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.transparent-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 40px;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 20px 0;
+}
+
+.transparent-box h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+
+.transparent-box h3 {
+  color: #34495e;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.network-features {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  max-width: 700px;
+  margin: 20px 0;
+  list-style-position: outside;
+  padding-left: 20px;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.network-features li {
+  margin-bottom: 12px;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.example {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 20px 0;
+  text-align: left;
+  padding: 0 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .transparent-box {
+    padding: 25px 15px;
+    width: 95%;
+  }
+
+  .transparent-box h1 {
+    font-size: 1.8rem;
+  }
+
+  .transparent-box h3 {
+    font-size: 1.3rem;
+  }
+
+  .network-features li,
+  .example {
+    font-size: 1rem;
+  }
+}
+h3 {
+  color: rgb(255, 129, 2);
+}
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+/* Style for right-aligned ordered list in table cells */
+td ul.right-aligned-list {
+  text-align: left;
+  list-style-position: inside; /* Puts numbers inside content flow */
+  padding-left: 0; /* Remove default padding */
+  margin: 0; /* Remove default margins */
+}
+
+/* If you want the numbers right-aligned but text left-aligned */
+td ul.right-aligned-list.split-align {
+  list-style-position: outside;
+  padding-left: 1.5em; /* Space for numbers */
+}
+
+td ol.right-aligned-list.split-align li {
+  text-align: left;
+  padding-right: 1.5em; /* Space for numbers */
+}
+
+/* General table styling (optional) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+.transparent-box h4 {
+  color: #34495e;
+  margin-bottom: 20px;
+  font-size: medium;
+  font-weight: 500;
+}
+/* Tab system container */
+.tab-system {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Tab header */
+.tab-header {
+  display: flex;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Tab buttons */
+.tab-button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.tab-button:hover {
+  background-color: #ddd;
+}
+
+.tab-button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Navigation buttons */
+.tab-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.nav-button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #45a049;
+}
+
+/* Tab content */
+.tab-content {
+  display: none;
+  padding: 20px;
+  animation: fadeEffect 0.5s;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

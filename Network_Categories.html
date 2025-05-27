@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICT revision</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <!-- Correct -->
+  </head>
+  <body>
+    <div class="transparent-box">
+      <div class="tab-system">
+        <!-- Tab headers -->
+        <div class="tab-header">
+          <button class="tab-button active" onclick="openTab(event, 'topic1')">
+            <a
+              href="Network_Categories.html"
+              title="Network_Categories"
+              style="text-decoration: none; color: inherit"
+              >Network Categories</a
+            >
+          </button>
+          <button class="tab-button active" onclick="openTab(event, 'topic1')">
+            <a
+              href="Connect_Devices.html"
+              title="Connect_Devices"
+              style="text-decoration: none; color: inherit"
+              >Connecting Devices</a
+            >
+          </button>
+          <button class="tab-button" onclick="openTab(event, 'topic3')">
+            Topic 3
+          </button>
+
+          <!-- Navigation buttons -->
+        </div>
+      </div>
+      <h1>Network Categories</h1>
+      <h3>Peer-to-peer Network</h3>
+
+      <ul class="network-features">
+        <li>
+          Devices share the same resources and privileges without a centralized
+          administrative system
+        </li>
+        <li>They can connect and make requests directly with one another</li>
+      </ul>
+
+      <p class="example">
+        For instance, BitTorrent (BT) is a communication protocol for P2P file
+        sharing. It is commonly used in downloading large files, such as videos
+        and Linux installation files.
+      </p>
+      <br />
+      <h3>Client/server Networks</h3>
+      <ul class="network-features">
+        <li>
+          A centralised administrative system known as the server is present
+        </li>
+        <li>Shares files and resources to clients connected to it</li>
+      </ul>
+      <br />
+      <table border="1">
+        <tr>
+          <th style="color: rgba(255, 255, 255, 0.9)">sdsdsddsdsds</th>
+          <th>Peer-to-peer network</th>
+          <th>Client/server Network</th>
+        </tr>
+        <tr>
+          <ul class="right-aligned-list">
+            <td>Advantage</td>
+            <td style="text-align: left">
+              1. Low cost<br />2. Easty to set up<br />3. Flexible, easy to add
+              or remove device
+            </td>
+          </ul>
+          <td style="text-align: left">
+            1. Better user management<br />2. More secure<br />3. Data back-up
+            and recovery is easier
+          </td>
+        </tr>
+        <tr>
+          <ul class="right-aligned-list">
+            <td>Disadvantage</td>
+            <td style="text-align: left">
+              1. Less secure<br />2. Difficult to organise a large number of
+              files
+            </td>
+            <td style="text-align: left">
+              1. High cost<br />2. Difficult to set up and maintain
+            </td>
+          </ul>
+        </tr>
+      </table>
+      <br /><br />
+      <h3>Network Topologies</h3>
+      <br />
+      <p class="example">
+        Network topology refers to the layout of a network. Physical topology
+        describes how devices in a network are wired together, while logical
+        topology decribes how data is transmitted within a network.
+      </p>
+      <br />
+      <ol class="network-features">
+        <li>
+          <b>Ring Topology : </b>If one device stops working, the network won't
+          work properly
+        </li>
+        <li>
+          <b>Star Topology : </b>If on device(not the central device) stops
+          working, the network won't be affected
+        </li>
+        <li>
+          <b>Bus topology : </b>If the bus is damaged then the whole network
+          fails
+        </li>
+        <li>
+          <b>Mesh topology : </b>A failure of a single node doesn't affect the
+          network connectivity. However, the cost is high and it is difficult to
+          set up
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>
